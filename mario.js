@@ -40,6 +40,8 @@ determineHeightAndThenDrawPyramid();
 
      // TODO 4
      // before drawing, clear the old content
+	var node = document.getElementById("pyramid");
+	node.textContent = "";
 
 
      // for each row....
